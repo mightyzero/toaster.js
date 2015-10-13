@@ -19,7 +19,7 @@ var router = express.Router();
 
 router.route('/users')
 	.post(function onPost(req, res) {
-		var user = new User();
+		var user = new User(req.body);
 
 		console.log(user);
 		res.send(user);

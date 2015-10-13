@@ -41,7 +41,7 @@ app.get('/', function(req, res) {
 
 
 // Server application configuration
-var host = process.env.IP;
+var host = process.env.IP   || '127.0.0.1';
 var port = process.env.PORT || 8080;
 var backlog = 511;                     // Max # of pending connections
 

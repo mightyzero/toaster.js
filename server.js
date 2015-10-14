@@ -3,7 +3,7 @@ var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 
 // Import models
-var User = require('./app/user/user_model');
+var User = require('./app/user/user-model');
 
 
 // Database configuration

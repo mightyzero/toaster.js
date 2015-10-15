@@ -15,7 +15,8 @@
     "chai": "^3.3.0",
     "gulp-jshint": "^1.11.2",
     "karma": "^0.13.10",
-    "mocha": "^2.3.3"
+    "mocha": "^2.3.3",
+    "standard": "^5.3.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
